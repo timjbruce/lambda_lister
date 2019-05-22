@@ -79,7 +79,7 @@ while x:
         credentials=sts_response['Credentials']
     
         # Use the temporary credentials that AssumeRole returns to make a 
-        # connection to Amazon S3  
+        # connection to the account  
         lambdacli=boto3.client(
             'lambda',
             aws_access_key_id=credentials['AccessKeyId'],
