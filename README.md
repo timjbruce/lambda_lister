@@ -18,4 +18,4 @@ Modify this line to identify the role to assume in your sub-accounts
 `roletemplate = 'arn:aws:iam::{}:role/lambda_lister'`
 
 ## Execution ##
-python lambda_lister.py
+python org_lambdalist.py
